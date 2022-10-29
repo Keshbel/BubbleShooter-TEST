@@ -29,7 +29,7 @@ public class creatorBall : MonoBehaviour
     int[] map;
     private int maxCols;
     private int maxRows;
-    private LIMIT limitType;
+    private Limit limitType;
 
     // Use this for initialization
     void Start()
@@ -107,7 +107,7 @@ public class creatorBall : MonoBehaviour
             {
                 string blocksString = line.Replace("LIMIT", string.Empty).Trim();
                 string[] sizes = blocksString.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
-                limitType = (LIMIT)int.Parse(sizes[0]);
+                limitType = (Limit)int.Parse(sizes[0]);
                 LevelData.LimitAmount = int.Parse(sizes[1]);
 
             }
@@ -126,7 +126,7 @@ public class creatorBall : MonoBehaviour
             }
             else
             {   //Maps
-                //lines∑÷∏Ó£¨≤¢ªÒ»°–– ˝
+                //lines¬∑–¶—ë–æ–à¬¨–Ü—û¬ª—Å–ò–é–†–†–ö—ç
                 string[] st = line.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
                 for (int i = 0; i < st.Length; i++)
                 {
@@ -143,14 +143,14 @@ public class creatorBall : MonoBehaviour
                 mapLine++;
             }
         }
-        //ÀÊª˙—’…´
+        //–õ–∂¬ª—ä–°–•–ô¬´
         if (LevelData.colorsDict.Count == 0)
         {
-            //ÃÌº”πÃ∂®—’…´
+            //–ú–Ω—ò–£‚Ññ–ú¬∂–Å–°–•–ô¬´
             LevelData.colorsDict.Add(0, BallColor.yellow);
             LevelData.colorsDict.Add(1, BallColor.red);
 
-            //ÃÌº”ÀÊª˙—’…´
+            //–ú–Ω—ò–£–õ–∂¬ª—ä–°–•–ô¬´
             List<BallColor> randomList = new List<BallColor>();
             randomList.Add(BallColor.blue);
             randomList.Add(BallColor.green);

@@ -1,7 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 public class map 
 {
@@ -17,6 +14,4 @@ public class map
     public string tilewidth;
     [XmlAttribute("tileheight")]
     public string tileheight;
-
-
 }

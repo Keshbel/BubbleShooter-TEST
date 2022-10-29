@@ -147,7 +147,6 @@ public class bouncer : MonoBehaviour
                 {
                     if (!findInArray(b, obj.gameObject))
                     {
-                        Camera.main.GetComponent<MainScript>().arraycounter++;
                         if (obj.GetComponent<bouncer>().checkNearestBall(b))
                             return true;
                     }

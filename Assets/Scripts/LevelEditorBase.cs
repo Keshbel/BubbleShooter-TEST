@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public enum LIMIT
+public enum Limit
 {
-    MOVES
+    moves
 }
 
 public class LevelEditorBase : MonoBehaviour

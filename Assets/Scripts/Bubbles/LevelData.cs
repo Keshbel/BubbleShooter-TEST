@@ -1,10 +1,6 @@
 ﻿using UnityEngine;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Serialization;
-using System.IO;
-using System.Reflection;
 using System.Xml;
 
 public enum ModeGame
@@ -19,7 +15,7 @@ public class LevelData
 
     public static int[] map = new int[11 * 70];
 
-    //整个图中的过关标准
+    //Clearance Criteria for the Entire Figure
     public static List<Mission> requestMissions = new List<Mission>();
     public static ModeGame mode = ModeGame.Vertical;
     private static float limitAmount = 40;
@@ -40,39 +36,35 @@ public class LevelData
     public static int star1;
     public static int star2;
     public static int star3;
+    
     public static void LoadDataFromXML(int currentLevel)
     {
         requestMissions.Clear();
-       // TextAsset textAsset = (TextAsset)Resources.Load(  "4.txt", typeof( TextAsset ) ) ;
         TextAsset textReader = Resources.Load( "Levels/" + currentLevel ) as TextAsset;
-      //  TextReader textReader = new StreamReader(Application.dataPath + "/Resources/Levels/" + currentLevel + ".tmx");
-        //TextReader textReader = new StreamReader( textAsset );
-        //TextReader textReader = new TextReader( textAsset );
         ProcessGameDataFromXML( textReader );
-       // textReader.Close();
-
     }
 
     public static void LoadDataFromLocal(int currentLevel)
     {
         requestMissions.Clear();
-        //从文本文件读取配置
+        //Read configuration from text file
         TextAsset mapText = Resources.Load("Levels/" + currentLevel) as TextAsset;
         ProcessGameDataFromString(mapText.text);
     }
     public static void LoadDataFromURL(int currentLevel)
     {
-        //可以从服务器获取数据
+        //Can get data from server
     }
     static void ProcessGameDataFromString(string mapText)
     {
-        //格式说明
-        //1st.以GM开头，表示游戏模式(1:移动限制模式，2.时间限制模式)
-        //2st.以LMT开头，表示可操作的次数限制（移动次数或者秒数，根据游戏模式有不同）
-        //Ex: 20表示玩家可以移动20次，或者有20秒通关时间
-        //3rd: MNS表示通关要求的标准线。 
-        //Ex: MNS 10000/24/0' 表示玩家需要获取 1000 points, 24 block, 不需要 rings.
-        //4th:Map lines: 地图的规格
+        //Format description
+        //1st. Starts with GM, indicating the game mode (1: movement limited mode, 2. time limited mode)
+        //2st. Starts with LMT, indicating the limit of the number of operations (the number of moves or seconds, depending on the game mode)
+        //Ex: 20 means the player can move 20 times, or have 20 seconds to clear the level
+        //3rd: MNS represents the standard line required for customs clearance.
+        //Ex: MNS 10000/24/0' means the player needs to get 1000 points, 24 blocks, no rings.
+        //4th:Map lines: the specifications of the map
+        
         string[] lines = mapText.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
 
         int mapLine = 0;
@@ -122,8 +114,6 @@ public class LevelData
                 for (int i = 0; i < squareTypes.Length; i++)
                 {
                     int value = int.Parse(squareTypes[i].Trim());
-                    //if (!colorsDict.ContainsValue((BallColor)mapValue) && mapValue != 9)
-                    //    colorsDict.Add(key++, (BallColor)mapValue);
 
                     map[mapLine * creatorBall.columns + i] = value;
                 }
@@ -145,7 +135,6 @@ public class LevelData
             if (element.GetAttribute("name") == "STAR1") star1 = int.Parse(element.GetAttribute("value"));
             if (element.GetAttribute("name") == "STAR2") star2 = int.Parse(element.GetAttribute("value"));
             if (element.GetAttribute("name") == "STAR3") star3 = int.Parse(element.GetAttribute("value"));
-            //    Debug.Log(element.GetAttribute("value"));
         }
 
         elemList = doc.GetElementsByTagName("tile");
@@ -199,11 +188,6 @@ public class LevelData
             }
 
         }
-        //foreach (XmlElement element in elemList)
-        //{
-        //    Debug.Log(element.GetAttribute("gid"));
-        //}
-
     }
 
     public static int GetScoreTarget(int currentLevel)
@@ -220,7 +204,7 @@ public class LevelData
     public static Target GetTarget(int levelNumber)
     {
         LoadLevel(levelNumber);
-        return (Target)LevelData.mode;
+        return (Target) mode;
     }
 
     public static bool LoadLevel(int currentLevel)

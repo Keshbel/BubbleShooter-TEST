@@ -8,8 +8,7 @@ public enum BallColor
     red,
     violet,
     yellow,
-    random,
-    chicken
+    random
 }
 
 public class ColorBallScript : MonoBehaviour
@@ -38,13 +37,13 @@ public class ColorBallScript : MonoBehaviour
 
     private void SetSettings(BallColor color)
     {
-        if (color == BallColor.chicken)
+        /*if (color == BallColor.chicken)
         {
             if (LevelData.mode == ModeGame.Rounded)
             {
 
             }
-        }
+        }*/
     }
 
     public void SetColor(int color)

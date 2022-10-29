@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEditor;
 using System;
 using System.Diagnostics;
@@ -7,7 +6,7 @@ using System.IO;
 using Debug = UnityEngine.Debug;
 
 /// <summary>
-/// 关卡编辑器类
+/// level editor class
 /// </summary>
 public class LevelEditor : EditorWindow
 {
@@ -19,7 +18,7 @@ public class LevelEditor : EditorWindow
     int levelNumber = 1;
     private Vector2 scrollViewVector;
     private Target target;
-    private LIMIT limitType;
+    private Limit limitType;
     private int limit;
     private int colorLimit;
     private int star1;
@@ -33,7 +32,7 @@ public class LevelEditor : EditorWindow
     [MenuItem("Window/Level Editor")]
     static void Init()
     {
-        //获取打开的窗口，如果不存在则创建一个
+        //Get an open window, create one if it doesn't exist
         CreateLevelBaseObj();
         window = GetWindow<LevelEditor>(); ;
         window.Show();
@@ -57,7 +56,7 @@ public class LevelEditor : EditorWindow
             }
             else
             {
-                Debug.LogWarning("找不到编辑器所依赖的预制体!无法打开关卡编辑器!");
+                Debug.LogWarning("Could not find the prefab that the editor depends on! Could not open the switch editor");
             }
         }
     }
@@ -76,10 +75,10 @@ public class LevelEditor : EditorWindow
         {
             lm = levelEditorBaseObj.GetComponent<LevelEditorBase>();
         }
-        //解决打开错误场景后窗口卡住的问题
+        //Solve the problem that the window gets stuck after opening the wrong scene
         if (lm == null)
         {
-            Debug.LogError("Can't find LevelEditorBase组件！");
+            Debug.LogError("Can't find LevelEditorBase！");
             window.Close();
         }
         ballTex = new Texture[lm.sprites.Length];
@@ -107,9 +106,6 @@ public class LevelEditor : EditorWindow
 
 
         scrollViewVector = GUI.BeginScrollView(new Rect(25, 45, position.width - 30, position.height), scrollViewVector, new Rect(0, 0, 400, 2000));
-        //      GUILayout.Space(-30);
-
-
 
         GUILevelSelector();
         GUILayout.Space(10);
@@ -123,9 +119,6 @@ public class LevelEditor : EditorWindow
 
         GUIStars();
         GUILayout.Space(10);
-
-        //GUITarget();
-        //GUILayout.Space(10);
 
         GUIBlocks();
         GUILayout.Space(20);
@@ -144,19 +137,9 @@ public class LevelEditor : EditorWindow
     {
         GUILayout.BeginHorizontal();
         GUILayout.Label("Level editor", EditorStyles.boldLabel, new GUILayoutOption[] { GUILayout.Width(150) });
-        //if (GUILayout.Button("Test level", new GUILayoutOption[] { GUILayout.Width(150) }))
-        //{
-        //    PlayerPrefs.SetInt("OpenLevelTest", levelNumber);
-        //    PlayerPrefs.SetInt("OpenLevel", levelNumber);
-        //    PlayerPrefs.Save();
 
-        //    EditorApplication.isPlaying = true;
-
-
-        //}
         GUILayout.EndHorizontal();
-
-        //     myString = EditorGUILayout.TextField("Text Field", myString);
+        
         GUILayout.BeginHorizontal();
         GUILayout.Space(30);
         GUILayout.BeginVertical();
@@ -244,10 +227,10 @@ public class LevelEditor : EditorWindow
         GUILayout.Space(60);
 
         GUILayout.Label("Limit:", EditorStyles.label, new GUILayoutOption[] { GUILayout.Width(50) });
-        LIMIT limitTypeSave = limitType;
+        Limit limitTypeSave = limitType;
         int oldLimit = limit;
-        limitType = (LIMIT)EditorGUILayout.EnumPopup(limitType, GUILayout.Width(93));
-        if (limitType == LIMIT.MOVES)
+        limitType = (Limit)EditorGUILayout.EnumPopup(limitType, GUILayout.Width(93));
+        if (limitType == Limit.moves)
             limit = EditorGUILayout.IntField(limit, new GUILayoutOption[] { GUILayout.Width(50) });
         else
         {
@@ -417,14 +400,7 @@ public class LevelEditor : EditorWindow
             {
                 if (GUILayout.Button(ballTex[i - 1], new GUILayoutOption[] { GUILayout.Width(50), GUILayout.Height(50) }))
                 {
-                    if ((BallColor)i != BallColor.chicken)
-                        brush = (BallColor)i;
-                    else
-                    {
-                        target = Target.Chicken;
-                        levelSquares[5 * maxCols + 5] = BallColor.chicken;
-                        SaveLevel();
-                    }
+                    brush = (BallColor)i;
                 }
             }
 
@@ -434,7 +410,6 @@ public class LevelEditor : EditorWindow
         {
             brush = 0;
         }
-        //   GUILayout.Label(" - empty", EditorStyles.boldLabel);
 
 
         GUILayout.EndHorizontal();
@@ -493,11 +468,6 @@ public class LevelEditor : EditorWindow
                     {
                         imageButton = ballTex[5];
                     }
-                    else if (levelSquares[row * maxCols + col] == BallColor.chicken)
-                    {
-                        imageButton = ballTex[6];
-                    }
-
                 }
 
                 if (GUILayout.Button(imageButton as Texture, new GUILayoutOption[] {
@@ -525,15 +495,8 @@ public class LevelEditor : EditorWindow
     {
         bool chickenExist = false;
         levelSquares[row * maxCols + col] = brush;
-        foreach (BallColor item in levelSquares)
-        {
-            if (item == BallColor.chicken)
-                chickenExist = true;
-        }
-        if (chickenExist) target = Target.Chicken;
-        else target = Target.Top;
+        target = Target.Top;
         SaveLevel();
-        // GetSquare(col, row).type = (int) squareType;
     }
 
 
@@ -561,7 +524,7 @@ public class LevelEditor : EditorWindow
     public void SaveMap(string fileName)
     {
         string saveString = "";
-        //配置写入字符串
+        //configure write string
         saveString += "MODE " + (int)target;
         saveString += "\r\n";
         saveString += "SIZE " + maxCols + "/" + maxRows;
@@ -573,25 +536,25 @@ public class LevelEditor : EditorWindow
         saveString += "STARS " + star1 + "/" + star2 + "/" + star3;
         saveString += "\r\n";
 
-        //配置Map数据
+        //Configure Map Data
         for (int row = 0; row < maxRows; row++)
         {
             for (int col = 0; col < maxCols; col++)
             {
                 saveString += (int)levelSquares[row * maxCols + col];
-                //如果此列不是当前行的最后一列，那么就添加space分隔符
+                //If this column is not the last column of the current row, add space separator
                 if (col < (maxCols - 1))
                     saveString += " ";
             }
-            //如果不是最后一行，则换行
+            //Newline if not the last line
             if (row < (maxRows - 1))
                 saveString += "\r\n";
         }
         if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.WindowsEditor)
         {
-            //写入文件
+            //write to file
             string activeDir = Application.dataPath + @"/Resources/Levels/";
-            string newPath = System.IO.Path.Combine(activeDir, levelNumber + ".txt");
+            string newPath = Path.Combine(activeDir, levelNumber + ".txt");
             StreamWriter sw = new StreamWriter(newPath);
             sw.Write(saveString);
             sw.Close();
@@ -601,7 +564,7 @@ public class LevelEditor : EditorWindow
 
     public bool LoadDataFromLocal(int currentLevel)
     {
-        //从txt文本读取
+        //read from txt text
         TextAsset mapText = Resources.Load("Levels/" + currentLevel) as TextAsset;
         if (mapText == null)
         {
@@ -637,7 +600,7 @@ public class LevelEditor : EditorWindow
             {
                 string blocksString = line.Replace("LIMIT", string.Empty).Trim();
                 string[] sizes = blocksString.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
-                limitType = (LIMIT)int.Parse(sizes[0]);
+                limitType = (Limit)int.Parse(sizes[0]);
                 limit = int.Parse(sizes[1]);
 
             }
@@ -656,7 +619,7 @@ public class LevelEditor : EditorWindow
             }
             else
             {
-                //分割lines获取map数量
+                //Split lines to get the number of maps
                 string[] st = line.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
                 for (int i = 0; i < st.Length; i++)
                 {

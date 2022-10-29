@@ -12,7 +12,7 @@ public class ball : MonoBehaviour
     public bool isTarget;
 
     //	 public OTSprite sprite;                    //star's sprite class
-    Vector2 speed =                     // Ã¿ÃëÐÇÐÇµÄÒÆ¶¯ËÙ¶È
+    Vector2 speed =                     // Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½Æ¶ï¿½ï¿½Ù¶ï¿½
         new Vector2( 250, 250 );
     public Vector3 target;
     Vector2 worldPos;
@@ -79,7 +79,7 @@ public class ball : MonoBehaviour
     private bool touchedTop;
     private bool touchedSide;
     /// <summary>
-    /// »ðÇòÏû³ýµÄÒÆ¶¯ÏÞÖÆ
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     private int fireBallLimit = 10;
     private bool launched;
@@ -164,7 +164,6 @@ public class ball : MonoBehaviour
                     setTarget = true;
                     startTime = Time.time;
                     dropTarget = transform.position;
-                    InitScript.Instance.BoostActivated = false;
                     MainScript.Instance.newBall = gameObject;
                     MainScript.Instance.newBall2 = gameObject;
                     GetComponent<Rigidbody2D>().AddForce( target - dropTarget, ForceMode2D.Force );
@@ -216,22 +215,6 @@ public class ball : MonoBehaviour
         if ( ct.IsPointerOverGameObject())
             return true;
         return false;
-    }
-
-    public void SetBoost( BoostType boostType )
-    {
-        tag = "Ball";
-        GetComponent<SpriteRenderer>().sprite = boosts[(int)boostType - 1];
-        if( boostType == BoostType.ColorBallBoost )
-        {
-        }
-        if( boostType == BoostType.FireBallBoost )
-        {
-            GetComponent<SpriteRenderer>().sortingOrder = 10;
-            GetComponent<CircleCollider2D>().enabled = false; 
-            fireBall = true;
-            fireballArray.Add( gameObject );
-        }
     }
 
     void FixedUpdate()
@@ -360,7 +343,7 @@ public class ball : MonoBehaviour
         if( b.Count >= 3 )
         {
             MainScript.Instance.ComboCount++;
-            destroy( b, 0.00001f );
+            DestroyBall( b, 0.00001f );
             MainScript.Instance.CheckFreeChicken();
         }
         if( b.Count < 3 )
@@ -455,7 +438,6 @@ public class ball : MonoBehaviour
                         if( !findInArray( b, obj.gameObject ) )
                         {
                             //print( gameObject + " " + distTemp );
-                            Camera.main.GetComponent<MainScript>().arraycounter++;
                             if( obj.GetComponent<ball>().checkNearestBall( b ) )
                                 return true;
                         }
@@ -703,7 +685,7 @@ public class ball : MonoBehaviour
                     else
                     {
                         StopBall();
-                        destroy( fireballArray, 0.000000000001f );
+                        DestroyBall( fireballArray, 0.000000000001f );
 
                     }
 
@@ -733,7 +715,7 @@ public class ball : MonoBehaviour
 
                     if( fireBall )
                     {
-                        destroy( fireballArray, 0.000000000001f );
+                        DestroyBall( fireballArray, 0.000000000001f );
                     }
                 }
 
@@ -781,7 +763,7 @@ public class ball : MonoBehaviour
         if( b.Count >= 0 )
         {
             MainScript.Instance.ComboCount++;
-            destroy( b, 0.001f );
+            DestroyBall( b, 0.001f );
         }
 
     }
@@ -871,7 +853,7 @@ public class ball : MonoBehaviour
 
     }
 
-    public void destroy( ArrayList b, float speed = 0.1f )
+    public void DestroyBall( ArrayList b, float speed = 0.1f )
     {
         StartCoroutine( DestroyCor( b, speed ) );
     }
@@ -953,27 +935,19 @@ public class ball : MonoBehaviour
         Destroy( gameObject );
     }
 
-    public void destroy()
+    public void DestroyBall()
     {
         growUpPlaySound();
-        destroy( gameObject );
+        DestroyBall( gameObject );
     }
 
-    public void destroy( GameObject obj )
+    public void DestroyBall( GameObject obj )
     {
         if( obj.name.IndexOf( "ball" ) == 0 ) obj.layer = 0;
 
         Camera.main.GetComponent<MainScript>().bounceCounter = 0;
-        //	collider.enabled = false;
         obj.GetComponent<ball>().destroyed = true;
-        //	Destroy(obj);
-        //obj.GetComponent<ball>().growUpPlaySound();
         obj.GetComponent<ball>().growUp();
-        //	Invoke("playPop",1/(float)Random.Range(2,10));
-        Camera.main.GetComponent<MainScript>().explode( obj.gameObject );
-        //     if (name.IndexOf("bug") < 0)
-        //       Score.Instance.addScore(3);
-
     }
 
     public void growUp()
@@ -989,10 +963,6 @@ public class ball : MonoBehaviour
     public void growUpDelayed()
     {
         StartCoroutine( explode() );
-    }
-
-    void playPop()
-    {
     }
 
 

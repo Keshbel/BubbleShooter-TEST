@@ -89,7 +89,6 @@ public class GamePlay : MonoBehaviour
     IEnumerator WinAction()
     {
         winStarted = true;
-        InitScript.Instance.AddLife(1);
         GameObject.Find("Canvas").transform.Find("LevelCleared").gameObject.SetActive(true);
         //       yield return new WaitForSeconds( 1f );
         //if( GameObject.Find( "Music" ) != null)
