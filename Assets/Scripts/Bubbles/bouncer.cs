@@ -11,8 +11,7 @@ public class bouncer : MonoBehaviour
     public float offset;
 
     public ArrayList nearBalls = new ArrayList();
-
-    //	private OTSpriteBatch spriteBatch = null;  
+    
     GameObject Meshes;
     public int countNEarBalls;
     float gameOverBorder;

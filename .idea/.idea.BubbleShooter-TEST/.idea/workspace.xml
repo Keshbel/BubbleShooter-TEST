@@ -20,92 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45869b62-ba7b-4784-9a04-a1744a6d3703" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/华康娃娃体.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/华康娃娃体.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/迷你简卡通.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/迷你简卡通.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/icons/tencent.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/icons/tencent.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/continue_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/continue_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_menu/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_menu/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/5_balls_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/5_balls_banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/clear_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Media/menu/play_menu/clear_banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/get_chicken_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/get_chicken_banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_menu_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_menu_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/text/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/text/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/play_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/play_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/rabbit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Media/rabbit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeanLocalization.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeanLocalization.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder/LoadManager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder/LoadManager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Bug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Bug.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/DrawLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/DrawLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/GamePlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/GamePlay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Grid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LevelData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LinePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LinePoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LockLevelRounded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LockLevelRounded.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MissionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MissionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MoveUp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MoveUp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Pot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Pot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RabbitAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RabbitAnim.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RemainLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RemainLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/TargetIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/TargetIcon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ball.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/butterfly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/butterfly.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorBall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorButterFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorButterFly.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Perfect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Perfect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/SoundParticle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/SoundParticle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +71,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/butterfly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/Bug.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" />
@@ -167,6 +81,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/SoundParticle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" />
       </list>
     </option>
   </component>
@@ -220,7 +135,7 @@
       <workItem from="1667028324312" duration="15024000" />
       <workItem from="1667054785895" duration="1595000" />
       <workItem from="1667062562143" duration="2835000" />
-      <workItem from="1667103218448" duration="5112000" />
+      <workItem from="1667103218448" duration="5766000" />
     </task>
     <servers />
   </component>
