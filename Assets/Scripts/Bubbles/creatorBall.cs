@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using System;
 
 public class creatorBall : MonoBehaviour
@@ -22,7 +21,6 @@ public class creatorBall : MonoBehaviour
     public static List<Vector2> grid = new List<Vector2>();
     int lastRow;
     float offsetStep = 0.33f;
-    //private OTSpriteBatch spriteBatch = null;  
     GameObject Meshes;
     [HideInInspector]
     public List<GameObject> squares = new List<GameObject>();
@@ -39,14 +37,11 @@ public class creatorBall : MonoBehaviour
         bug = bug_hd;
         thePrefab.transform.localScale = new Vector3( 0.67f, 0.58f, 1 );
         Meshes = GameObject.Find( "-Ball" );
-        // LevelData.LoadDataFromXML( MainScript.Instance.currentLevel );
         LoadLevel();
-        //LevelData.LoadDataFromLocal(MainScript.Instance.currentLevel);
         if( LevelData.mode == ModeGame.Vertical || LevelData.mode == ModeGame.Animals )
             MoveLevelUp();
         else
         {
-            // GameObject.Find( "TopBorder" ).transform.position += Vector3.down * 3.5f;
             GameObject.Find( "TopBorder" ).transform.parent = null;
             GameObject.Find( "TopBorder" ).GetComponent<SpriteRenderer>().enabled = false;
             GameObject ob = GameObject.Find( "-Meshes" );
@@ -63,7 +58,7 @@ public class creatorBall : MonoBehaviour
 
     public void LoadLevel()
     {
-        MainScript.Instance.currentLevel = PlayerPrefs.GetInt("OpenLevel");// TargetHolder.level;
+        MainScript.Instance.currentLevel = PlayerPrefs.GetInt("OpenLevel");
         if (MainScript.Instance.currentLevel == 0)
             MainScript.Instance.currentLevel = 1;
         LoadDataFromLocal(MainScript.Instance.currentLevel);
@@ -126,7 +121,6 @@ public class creatorBall : MonoBehaviour
             }
             else
             {   //Maps
-                //lines·ЦёоЈ¬Іў»сИЎРРКэ
                 string[] st = line.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
                 for (int i = 0; i < st.Length; i++)
                 {
@@ -143,19 +137,15 @@ public class creatorBall : MonoBehaviour
                 mapLine++;
             }
         }
-        //Лж»ъСХЙ«
         if (LevelData.colorsDict.Count == 0)
         {
-            //МнјУ№М¶ЁСХЙ«
             LevelData.colorsDict.Add(0, BallColor.yellow);
             LevelData.colorsDict.Add(1, BallColor.red);
-
-            //МнјУЛж»ъСХЙ«
+            
             List<BallColor> randomList = new List<BallColor>();
             randomList.Add(BallColor.blue);
             randomList.Add(BallColor.green);
-            //if (LevelData.mode != ModeGame.Rounded)
-                randomList.Add(BallColor.violet);
+            randomList.Add(BallColor.violet);
             for (int i = 0; i < LevelData.colors - 2; i++)
             {
                 BallColor randCol = BallColor.yellow;
@@ -164,11 +154,8 @@ public class creatorBall : MonoBehaviour
                     randCol = randomList[UnityEngine.Random.RandomRange(0, randomList.Count)];
                 }
                 LevelData.colorsDict.Add(2 + i, randCol);
-
             }
-
         }
-
     }
 
     public void LoadMap( int[] pMap )
@@ -207,7 +194,7 @@ public class creatorBall : MonoBehaviour
             GamePlay.Instance.GameStatus = GameState.BlockedGame;
         bool up = false;
         List<float> table = new List<float>();
-        float lineY = -1.3f;//GameObject.Find( "GameOverBorder" ).transform.position.y;
+        float lineY = -1.3f;
         Transform bubbles = GameObject.Find( "-Ball" ).transform;
         int i = 0;
         foreach( Transform item in bubbles )
@@ -251,7 +238,6 @@ public class creatorBall : MonoBehaviour
             float distCovered = 0;
             while( distCovered < 1 )
             {
-           //                     print( table.Count );
                 speed += Time.deltaTime / 1.5f;
                 distCovered = ( Time.time - startTime ) / speed;
                 Meshes.transform.position = Vector3.Lerp( startPos, targetPos, distCovered );
@@ -262,8 +248,7 @@ public class creatorBall : MonoBehaviour
                 }
             }
         }
-
-        //        Debug.Log("lift finished");
+        
         if( GamePlay.Instance.GameStatus == GameState.BlockedGame )
             GamePlay.Instance.GameStatus = GameState.PreTutorial;
         else if( GamePlay.Instance.GameStatus != GameState.GameOver && GamePlay.Instance.GameStatus != GameState.Win )
@@ -289,7 +274,6 @@ public class creatorBall : MonoBehaviour
         {
             effset *= -1;
             CreateBug( new Vector3( 10 * effset, -3, 0 ) );
-
         }
 
     }
@@ -320,12 +304,6 @@ public class creatorBall : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     IEnumerator getBallsForMesh()
     {
         GameObject[] meshes = GameObject.FindGameObjectsWithTag( "Mesh" );
@@ -335,7 +313,6 @@ public class creatorBall : MonoBehaviour
             foreach( Collider2D obj in fixedBalls )
             {
                 obj1.GetComponent<Grid>().Busy = obj.gameObject;
-                //	obj.GetComponent<bouncer>().offset = obj1.GetComponent<Grid>().offset;
             }
         }
         yield return new WaitForSeconds( 0.5f );
@@ -396,7 +373,6 @@ public class creatorBall : MonoBehaviour
 
         b = Instantiate( ball, transform.position, transform.rotation ) as GameObject;
         b.transform.position = new Vector3( vec.x, vec.y, ball.transform.position.z );
-        // b.transform.Rotate( new Vector3( 0f, 180f, 0f ) );
         b.GetComponent<ColorBallScript>().SetColor( color );
         b.transform.parent = Meshes.transform;
         b.tag = "" + color;
@@ -409,8 +385,6 @@ public class creatorBall : MonoBehaviour
             b.gameObject.layer = 17;
             b.transform.parent = Camera.main.transform;
             Rigidbody2D rig = b.AddComponent<Rigidbody2D>();
-            // b.collider2D.isTrigger = false;
-      //      rig.fixedAngle = true;
             b.GetComponent<CircleCollider2D>().enabled = false;
             rig.gravityScale = 0;
             if( GamePlay.Instance.GameStatus == GameState.Playing )
@@ -423,12 +397,6 @@ public class creatorBall : MonoBehaviour
                 b.GetComponent<ball>().isTarget = true;
             b.GetComponent<BoxCollider2D>().offset = Vector2.zero;
             b.GetComponent<BoxCollider2D>().size = new Vector2( 0.5f, 0.5f );
-            //Destroy( b.rigidbody2D );
-            //b.rigidbody2D.isKinematic = true;
-            //Destroy( b.GetComponent < BoxCollider2D>() );
-            //b.AddComponent<BoxCollider2D>();
-            //b.GetComponent<BoxCollider2D>().enabled = false;
-            //b.GetComponent<BoxCollider2D>().enabled = true;
         }
         return b.gameObject;
     }
@@ -437,7 +405,6 @@ public class creatorBall : MonoBehaviour
     {
         GameObject b2 = Instantiate( ball, transform.position, transform.rotation ) as GameObject;
         b2.transform.position = new Vector3( vec.x, vec.y, ball.transform.position.z );
-        // b.transform.Rotate( new Vector3( 0f, 180f, 0f ) );
         b2.GetComponent<ColorBallScript>().SetColor( 11 );
         b2.transform.parent = Meshes.transform;
         b2.tag = "empty";
@@ -447,14 +414,12 @@ public class creatorBall : MonoBehaviour
         b2.GetComponent<SpriteRenderer>().sortingOrder = 20;
         b2.GetComponent<BoxCollider2D>().offset = Vector2.zero;
         b2.GetComponent<BoxCollider2D>().size = new Vector2( 0.5f, 0.5f );
-
     }
 
  
     int setColorFrame( string sTag )
     {
         int frame = 0;
-        //		if(Camera.main.GetComponent<MainScript>().hd){
         if( sTag == "Orange" ) frame = 7;
         else if( sTag == "Red" ) frame = 3;
         else if( sTag == "Yellow" ) frame = 1;
@@ -533,7 +498,6 @@ public class creatorBall : MonoBehaviour
             }
         }
         creatorBall.Instance.OffGridColliders();
-
     }
 
     public void AddMesh()

@@ -7,6 +7,7 @@ public class Bug : MonoBehaviour {
     public Sprite[] textures;
     public int color;
     int score = 25;
+    
 	// Use this for initialization
 	void Start () {
         spiders = GameObject.Find( "Spiders" ).transform;

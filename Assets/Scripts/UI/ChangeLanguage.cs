@@ -18,6 +18,7 @@ public class ChangeLanguage : MonoBehaviour
             currentLanguageInt = 1;
         
         Change(currentLanguageInt);
+        dropdown.value = currentLanguageInt;
     }
 
     private void Change(int value)

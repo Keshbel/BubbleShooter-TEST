@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public enum BallColor
 {
@@ -15,11 +14,6 @@ public class ColorBallScript : MonoBehaviour
 {
     public Sprite[] sprites;
     public BallColor mainColor;
-    // Use this for initialization
-    void Start()
-    {
-
-    }
 
     public void SetColor(BallColor color)
     {
@@ -37,13 +31,6 @@ public class ColorBallScript : MonoBehaviour
 
     private void SetSettings(BallColor color)
     {
-        /*if (color == BallColor.chicken)
-        {
-            if (LevelData.mode == ModeGame.Rounded)
-            {
-
-            }
-        }*/
     }
 
     public void SetColor(int color)

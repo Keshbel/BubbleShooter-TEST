@@ -1,15 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class SoundParticle : MonoBehaviour
 {
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
 
     public void Stop()
     {

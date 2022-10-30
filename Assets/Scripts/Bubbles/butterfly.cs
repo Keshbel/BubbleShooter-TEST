@@ -10,6 +10,7 @@ public class butterfly : MonoBehaviour
     float startTime;
     bool arcadeMode;
     public int revertButterFly;
+    
     // Use this for initialization
     void Start()
     {
@@ -45,9 +46,6 @@ public class butterfly : MonoBehaviour
         // check if we collided with a top block and adjust our speed and rotation accordingly
         if (owner.gameObject.name.IndexOf("ball") == 0 && owner.gameObject.GetComponent<ball>().setTarget)
         {
-            //	SoundBase.Instance.audio.PlayOneShot(SoundBase.Instance.Pickup);
-            //	Score.Instance.ShowPopup( 50);
-            //	Score.Instance.addScore( 50);
             Destroy(gameObject);
         }
     }
@@ -67,9 +65,7 @@ public class butterfly : MonoBehaviour
         if (arcadeMode) speed = 0.3f;
         while (Vector3.Distance(transform.position, targetPrepare) > 1 && !isPaused)
         {
-            //transform.position  += targetPrepare * Time.deltaTime;
             transform.position = Vector3.Lerp(tempPosition, targetPrepare, (Time.time - startTime) * speed);
-            //	transform.position  = targetPrepare ;
             yield return new WaitForSeconds(1f / 50f);
         }
     }

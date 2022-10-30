@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class LinePoint : MonoBehaviour
 {
@@ -9,6 +8,7 @@ public class LinePoint : MonoBehaviour
     float speed = 5;
     public Vector2 startPoint;
     public Vector2 nextPoint;
+    
     // Use this for initialization
     void Start()
     {
@@ -22,9 +22,6 @@ public class LinePoint : MonoBehaviour
         if (startPoint == nextPoint) GetComponent<SpriteRenderer>().enabled = false;
 
         timeLerped += Time.deltaTime;
-        //transform.position = Vector2.Lerp(DrawLine.waypoints[nextWayPoint - 1], DrawLine.waypoints[nextWayPoint], timeLerped / timeToLerp);
-        //    transform.LookAt( DrawLine.waypoints[nextWayPoint], Vector3.right);
-        //    transform.rotation = Quaternion.identity;
         transform.position = Vector3.MoveTowards(transform.position, nextPoint, speed * Time.deltaTime);
         if ((Vector2)transform.position == nextPoint)
         {

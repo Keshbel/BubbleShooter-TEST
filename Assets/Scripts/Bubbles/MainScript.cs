@@ -63,6 +63,7 @@ public class MainScript : MonoBehaviour
     public float ArcadedropDownTime;
     float appearLevelTime;
     public GameObject boxCatapult;
+    public GameObject boxSecond;
     public GameObject ElectricLiana;
     public static bool ElectricBoost;
     bool BonusLianaCounter;
@@ -577,6 +578,21 @@ public class MainScript : MonoBehaviour
         }
         CheckFreeChicken();
     }
+    
+    public void ChangeBoost()
+    {
+        SoundBase.GetInstance().GetComponent<AudioSource>().PlayOneShot(SoundBase.GetInstance().swish[0]);
+        Grid.waitForAnim = true;
+        GameObject ball1 = boxSecond.GetComponent<Grid>().Busy;
+        boxCatapult.GetComponent<Grid>().Busy.GetComponent<ball>().newBall = false;
+        iTween.MoveTo(boxSecond.GetComponent<Grid>().Busy, iTween.Hash("position", boxCatapult.transform.position, "time", 0.3, "easetype", iTween.EaseType.linear, "onComplete", "newBall"));
+        iTween.MoveTo(boxCatapult.GetComponent<Grid>().Busy, iTween.Hash("position", boxSecond.transform.position, "time", 0.3, "easetype", iTween.EaseType.linear));
+        boxSecond.GetComponent<Grid>().Busy = boxCatapult.GetComponent<Grid>().Busy;
+        boxCatapult.GetComponent<Grid>().Busy = ball1;
+        //		boxFirst.GetComponent<Grid>().Busy = boxSecond.GetComponent<Grid>().Busy;
+        //boxCatapult.GetComponent<Grid>().BounceFrom(boxFirst);
+    }
+    
 
     public void destroyAllballs()
     {

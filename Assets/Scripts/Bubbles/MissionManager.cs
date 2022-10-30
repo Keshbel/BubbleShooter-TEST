@@ -1,5 +1,3 @@
-using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 public class MissionManager
 {
@@ -11,6 +9,7 @@ public class MissionManager
     {
         Instance = this;
     }
+    
     //Init all score for player by missions from levels
     public void InitScore(List<Mission> missions)
     {
@@ -22,6 +21,7 @@ public class MissionManager
             missionScores.Add(score);
         }
     }
+    
     //Insert score by mission type
     //Ex: if user get one Ring, we will add 1 with type is MissionType.Ring
     public void AddScore(int amount, MissionType missionType)
@@ -30,13 +30,14 @@ public class MissionManager
         if (score != null)
         {
             score.amount += amount;
-
         }
     }
+    
     public Mission GetMission(MissionType missionType)
     {
         return missionScores.Find(obj => obj.type == missionType);
     }
+    
     //Check level complete or failed
     public bool IsWin()
     {

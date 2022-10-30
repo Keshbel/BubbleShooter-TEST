@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System;
 
 public enum Target
 {
@@ -9,8 +8,6 @@ public enum Target
 
 namespace InitScriptName
 {
-
-
     public class InitScript : MonoBehaviour
     {
         public static InitScript Instance;
@@ -83,10 +80,6 @@ namespace InitScriptName
                 GameObject.Find("Canvas").transform.Find("MenuPlay").gameObject.SetActive(true);
             }
         }
-
         #endregion
-
-
     }
-
 }

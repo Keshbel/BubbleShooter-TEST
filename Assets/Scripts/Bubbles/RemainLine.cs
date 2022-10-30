@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class RemainLine : MonoBehaviour
 {
@@ -26,11 +25,5 @@ public class RemainLine : MonoBehaviour
     {
         line.SetPosition(0, new Vector3(-8f, transform.position.y, 0));
         line.SetPosition(1, new Vector3(8f, transform.position.y, 0));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

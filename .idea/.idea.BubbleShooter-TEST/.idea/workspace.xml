@@ -20,439 +20,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45869b62-ba7b-4784-9a04-a1744a6d3703" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/rabbit_move.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/rabbit_move.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/EditorRes/LevelEditorBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/EditorRes/LevelEditorBase.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/CooperBlackStd-Italic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/CooperBlackStd-Italic.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/CooperBlackStd.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/CooperBlackStd.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Digitals.fontsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Digitals.fontsettings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/FONTH__.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/FONTH__.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Font diner dot com.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Font diner dot com.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Fonts.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Fonts.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Fonts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Fonts.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Fonts.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Fonts.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Materials/digitals.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Materials/digitals.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/New Font.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/New Font.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/cooper.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/cooper.fnt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/cooper_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/cooper_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/cooper_atlas_font.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/cooper_atlas_font.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/digitals.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/digitals.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/digitals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/digitals.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/digitals.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/digitals.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/fontdinerdotcom1.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/fontdinerdotcom1.fnt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/fontdinerdotcom1_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/fontdinerdotcom1_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/fontdinerdotcom2.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/fontdinerdotcom2.fnt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/华康娃娃体.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/华康娃娃体.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/迷你简卡通.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/迷你简卡通.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/ReadMe!.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/ReadMe!.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/Sample/Sample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/iTween.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Pixelplacement/iTween/iTween.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/GemsShop.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/GemsShop.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/LiveShop.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/LiveShop.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/MenuPlay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GUI/MenuPlay.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/Online.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/Online.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GUI/Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GUI/Settings.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEditorBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelEditorBase.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Objects/ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Objects/ball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BubbleShooter-TEST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/华康娃娃体.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/华康娃娃体.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/迷你简卡通.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/OLD/迷你简卡通.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/icons/tencent.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/icons/tencent.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/continue_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/Pause/continue_button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/boosts/boost_icon_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_menu/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_menu/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/5_balls_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/5_balls_banner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/game_over_menu/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/clear_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Media/menu/play_menu/clear_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/get_chicken_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/get_chicken_banner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_menu_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Media/menu/play_menu/play_menu_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/text/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/menu/text/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/play_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/play_button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Media/rabbit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeanLocalization.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeanLocalization.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder/LoadManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Folder/LoadManager.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/16.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/16.txt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/17.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/18.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/19.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/20.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/21.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/22.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/23.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/24.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/25.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/26.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/27.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/28.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/29.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/30.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/31.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/32.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Levels/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Levels/9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Level.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/AutoDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/AutoDestroy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ButtonX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ButtonX.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Bug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Bug.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/DrawLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/DrawLine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/GamePlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/GamePlay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Grid.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LevelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LinePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LinePoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LockLevelRounded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/LockLevelRounded.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Mission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Mission.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/SoundBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/SoundBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MissionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MissionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MoveUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/MoveUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Pot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/Pot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RabbitAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RabbitAnim.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RemainLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/RemainLine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/TargetIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/TargetIcon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/bonus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/bonus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/butterfly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/butterfly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorBall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/LevelEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/LevelEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Gradient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Gradient.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/HotPot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/HotPot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/AnimationManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/AnimationManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/BoostShop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/BoostShop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Counter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Counter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/LIFESAddCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/LIFESAddCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Level.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Level.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/MapLevelNumber.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/MapLevelNumber.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Offlineleadboard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Offlineleadboard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/ParticleSorting.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/ParticleSorting.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Perfect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Perfect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/PreTutorial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/PreTutorial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/ProgressBarScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/ProgressBarScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/SelectLevels.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/SelectLevels.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Slot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Slot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/SoundParticle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/SoundParticle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Tutorial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GUI/Tutorial.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorButterFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorButterFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelEditorBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelEditorBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/AdobeFnt14.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/AdobeFnt14.lst.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/Goonies.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/Goonies.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/Helvetica Inserat Cyrillic Upright.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/Helvetica Inserat Cyrillic Upright.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/goonies.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/goonies.fnt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/goonies_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/goonies_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/helvetica.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/helvetica.fnt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/helvetica_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Font/helvetica_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/arrow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/backgrounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/backgrounds/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/backgrounds/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/backgrounds/background_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/backgrounds/background_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/Materials/ball_animal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/Materials/ball_animal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_random.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_random.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_violet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_violet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/ball_yellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/pointer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/balls/pointer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/ball_chicken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/ball_chicken.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/candy_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/candy_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/ladybug_violet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/ladybug_violet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/ladybug_yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bonuses/ladybug_yellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit/rabbit_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit/rabbit_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit/rabbit_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/characters/rabbit/rabbit_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_05.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_06.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_07.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_08.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_09.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Expl/boom_17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Materials/bubble_crush.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Materials/bubble_crush.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/black_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/black_back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/bubble_crush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/bubble_crush.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/1_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/1_f.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/2_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/2_f.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/double_score_txt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/fire/double_score_txt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/light_ball_effect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/light_ball_effect.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/white_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/effects/white_back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icons/icon_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icons/icon_72.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icons/tencent.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icons/tencent.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/level_nomber.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/level_nomber.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/ask_life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/ask_life.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/boost_plus_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/boost_plus_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/buy_life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/buy_life.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/gold_bank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/gold_bank.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/gold_bank_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/gold_bank_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/heart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/play_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/map/MapGUI/play_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/continue_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/continue_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/home_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/home_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/music_off_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/music_off_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/music_on_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/music_on_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/pause_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/pause_banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/pause_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/pause_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/sound_off_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/sound_off_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/sound_on_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/Pause/sound_on_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/Materials/color_ball.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/Materials/color_ball.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_icon_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_icon_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_icon_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_icon_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_icon_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_icon_03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_locked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/boost_locked.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/buy_boost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/buy_boost.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/buy_boost_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/buy_boost_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/color_ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/color_ball.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/fire_ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/fire_ball.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/for_boost_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/boosts/for_boost_icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/Materials/back_for_ui.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/Materials/back_for_ui.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/arrow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/back_for_ui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/back_for_ui.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/circle_for_balls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/circle_for_balls.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/for_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/for_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/progress_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/progress_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/star_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/star_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/star_bar_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/star_bar_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/target_menu_chicken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/target_menu_chicken.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/target_menu_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/target_menu_star.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_menu/top.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/5_balls_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/5_balls_banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/for_shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/for_shop.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/game_over_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/game_over_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/game_over_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/game_over_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/no.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/out_of_moves_text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/game_over_menu/out_of_moves_text.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/clear_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/clear_banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/get_chicken_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/get_chicken_banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/play_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/play_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/play_menu_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/play_menu_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/star_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/star_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/star_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/star_02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/star_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/star_03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/x_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/play_menu/x_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/Cleared.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/Cleared.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/Thumbs.db.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/good.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/good.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/perfect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/perfect.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/wonderful.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/menu/text/wonderful.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/play_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/play_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/rabbit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/rabbit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/star2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/star2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityAnalyticsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Perfect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Perfect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/SoundParticle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/SoundParticle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,6 +116,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bubbles/ButtonX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/SelectLevels.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -473,31 +127,46 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/AutoDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Tutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/GamePlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/LIFESAddCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/SelectLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelEditorBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/SoundBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/New Folder/LoadManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Counter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ProgressBarScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MapLevelNumber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ParticleSorting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Perfect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/LevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/Mission.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/bonus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/Ball.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/ball.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/LevelEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Perfect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/MissionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/RabbitAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/Pot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/RemainLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/TargetIcon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/LockLevelRounded.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/LinePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/GamePlay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/DrawLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorButterFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/ColorBallScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/butterfly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/Bug.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/bouncer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ChangeLanguage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InitScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/ButtonX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/creatorBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bubbles/LevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PreTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/SoundParticle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AnimationManager.cs" />
       </list>
     </option>
   </component>
@@ -513,6 +182,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BubbleShooter-TestBuilds\天天萌泡泡.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Keshbel\Downloads\BubbleShooter-master\BubbleShooter-TestBuilds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -543,6 +220,7 @@
       <workItem from="1667028324312" duration="15024000" />
       <workItem from="1667054785895" duration="1595000" />
       <workItem from="1667062562143" duration="2835000" />
+      <workItem from="1667103218448" duration="5112000" />
     </task>
     <servers />
   </component>

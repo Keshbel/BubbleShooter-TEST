@@ -14,7 +14,7 @@ public class AnimationManager : MonoBehaviour
     {
         //For Windows
         #if UNITY_STANDALONE_WIN
-            Screen.SetResolution(360, 540, false);
+            Screen.SetResolution(1080, 1920, true);
         #endif
 
         if (playOnEnable)

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class DrawLine : MonoBehaviour
 {
@@ -23,7 +22,7 @@ public class DrawLine : MonoBehaviour
         GeneratePositionsPoints();
         HidePoints();
         waypoints[0] = transform.position;
-        waypoints[1] = transform.position+Vector3.up*5;
+        waypoints[1] = transform.position + Vector3.up * 5;
     }
 
     void HidePoints()
@@ -44,7 +43,8 @@ public class DrawLine : MonoBehaviour
     {
         if (MainScript.Instance.boxCatapult.GetComponent<Grid>().Busy != null)
         {
-            col = MainScript.Instance.boxCatapult.GetComponent<Grid>().Busy.GetComponent<SpriteRenderer>().sprite.texture.GetPixelBilinear(0.6f, 0.6f);
+            col = MainScript.Instance.boxCatapult.GetComponent<Grid>().Busy.GetComponent<SpriteRenderer>().sprite
+                .texture.GetPixelBilinear(0.6f, 0.6f);
             col.a = 1;
         }
 
@@ -67,6 +67,7 @@ public class DrawLine : MonoBehaviour
                     pointers[i - 1].GetComponent<LinePoint>().nextPoint = pointers[i].transform.position;
             }
         }
+
         for (int i = 0; i < pointers2.Length; i++)
         {
             Vector2 AB = waypoints[2] - waypoints[1];
@@ -93,6 +94,7 @@ public class DrawLine : MonoBehaviour
             pointers[i] = Instantiate(pointer, transform.position, transform.rotation) as GameObject;
             pointers[i].transform.parent = transform;
         }
+
         for (int i = 0; i < pointers2.Length; i++)
         {
             pointers2[i] = Instantiate(pointer, transform.position, transform.rotation) as GameObject;
@@ -114,77 +116,83 @@ public class DrawLine : MonoBehaviour
 
         if (draw)
         {
-            //  line.enabled = true;
             Vector3 dir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Vector3.back * 10;
-       //     if( dir.y - 2 < transform.position.y ) { HidePoints(); return; }
-            Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
-            if( !MainScript.StopControl )
-            {//dir.y < 15.5 && dir.y > - 2 && 
-
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (!MainScript.StopControl)
+            {
                 dir.z = 0;
                 if (lastMousePos == dir)
                 {
                     startAnim = true;
                 }
                 else startAnim = false;
+
                 lastMousePos = dir;
                 line.SetPosition(0, transform.position);
 
                 waypoints[0] = transform.position;
-                //int layerMask = ~(1 << LayerMask.NameToLayer("Mesh"));
 
 
-                RaycastHit2D[] hit = Physics2D.LinecastAll( waypoints[0], waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10 );
+                RaycastHit2D[] hit = Physics2D.LinecastAll(waypoints[0],
+                    waypoints[0] + ((Vector2) dir - waypoints[0]).normalized * 10);
                 foreach (RaycastHit2D item in hit)
                 {
                     Vector2 point = item.point;
-                //    if (point.y - waypoints[0].y < 1.5f) point += Vector2.up * 5;
                     line.SetPosition(1, point);
                     addAngle = 180;
 
-                       if (waypoints[1].x < 0) addAngle = 0;
-                       if( item.collider.gameObject.layer == LayerMask.NameToLayer( "Border" ) && item.collider.gameObject.name != "GameOverBorder" && item.collider.gameObject.name != "borderForRoundedLevels" )
-                        {
-                           Debug.DrawLine( waypoints[0], waypoints[1], Color.red );  //waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10
-                           Debug.DrawLine( waypoints[0], dir, Color.blue );
-                           Debug.DrawRay( waypoints[0], waypoints[1] - waypoints[0], Color.green );
-                           waypoints[1] = point;
-                           waypoints[2] = point;
-                           line.SetPosition( 1, dir );
-                            waypoints[1] = point;
-                            float angle = 0;
-                            angle = Vector2.Angle(waypoints[0] - waypoints[1], (point - Vector2.up * 100) - (Vector2)point);
-                            if (waypoints[1].x > 0) angle = Vector2.Angle(waypoints[0] - waypoints[1], (Vector2)point - (point - Vector2.up * 100));
-                            waypoints[2] = Quaternion.AngleAxis(angle + addAngle, Vector3.back) * ((Vector2)point - (point - Vector2.up * 100));
-                            Vector2 AB = waypoints[2] - waypoints[1];
-                            AB = AB.normalized;
-                            line.SetPosition(2, waypoints[2]);
-                            break;
-                        }
-                        else if (item.collider.gameObject.layer == LayerMask.NameToLayer("Ball"))
-                        {
-                            Debug.DrawLine( waypoints[0], waypoints[1], Color.red );  //waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10
-                            Debug.DrawLine( waypoints[0], dir, Color.blue );
-                            Debug.DrawRay( waypoints[0], waypoints[1] - waypoints[0], Color.green );
-                            line.SetPosition( 1, point );
-                            waypoints[1] = point;
-                            waypoints[2] = point;
-                            Vector2 AB = waypoints[2] - waypoints[1];
-                            AB = AB.normalized;
-                            line.SetPosition(2, waypoints[1] + (0.1f * AB));
-                            break;
-                        }
-                        else
-                        {
+                    if (waypoints[1].x < 0) addAngle = 0;
+                    if (item.collider.gameObject.layer == LayerMask.NameToLayer("Border") &&
+                        item.collider.gameObject.name != "GameOverBorder" &&
+                        item.collider.gameObject.name != "borderForRoundedLevels")
+                    {
+                        Debug.DrawLine(waypoints[0], waypoints[1],
+                            Color.red); //waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10
+                        Debug.DrawLine(waypoints[0], dir, Color.blue);
+                        Debug.DrawRay(waypoints[0], waypoints[1] - waypoints[0], Color.green);
+                        waypoints[1] = point;
+                        waypoints[2] = point;
+                        line.SetPosition(1, dir);
+                        waypoints[1] = point;
+                        float angle = 0;
+                        angle = Vector2.Angle(waypoints[0] - waypoints[1],
+                            (point - Vector2.up * 100) - (Vector2) point);
+                        if (waypoints[1].x > 0)
+                            angle = Vector2.Angle(waypoints[0] - waypoints[1],
+                                (Vector2) point - (point - Vector2.up * 100));
+                        waypoints[2] = Quaternion.AngleAxis(angle + addAngle, Vector3.back) *
+                                       ((Vector2) point - (point - Vector2.up * 100));
+                        Vector2 AB = waypoints[2] - waypoints[1];
+                        AB = AB.normalized;
+                        line.SetPosition(2, waypoints[2]);
+                        break;
+                    }
+                    else if (item.collider.gameObject.layer == LayerMask.NameToLayer("Ball"))
+                    {
+                        Debug.DrawLine(waypoints[0], waypoints[1],
+                            Color.red); //waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10
+                        Debug.DrawLine(waypoints[0], dir, Color.blue);
+                        Debug.DrawRay(waypoints[0], waypoints[1] - waypoints[0], Color.green);
+                        line.SetPosition(1, point);
+                        waypoints[1] = point;
+                        waypoints[2] = point;
+                        Vector2 AB = waypoints[2] - waypoints[1];
+                        AB = AB.normalized;
+                        line.SetPosition(2, waypoints[1] + (0.1f * AB));
+                        break;
+                    }
+                    else
+                    {
 
-                            waypoints[1] = waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10;
-                            waypoints[2] = waypoints[0] + ( (Vector2)dir - waypoints[0] ).normalized * 10;
-                        }
+                        waypoints[1] = waypoints[0] + ((Vector2) dir - waypoints[0]).normalized * 10;
+                        waypoints[2] = waypoints[0] + ((Vector2) dir - waypoints[0]).normalized * 10;
+                    }
 
-                    
- 
+
+
                 }
-                if (!startAnim )
+
+                if (!startAnim)
                     GeneratePositionsPoints();
 
             }

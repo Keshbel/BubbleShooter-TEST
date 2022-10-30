@@ -196,6 +196,7 @@
             <e p="bouncer.cs" t="Include" />
             <e p="Bug.cs" t="Include" />
             <e p="butterfly.cs" t="Include" />
+            <e p="ButtonX.cs" t="Include" />
             <e p="ColorBallScript.cs" t="Include" />
             <e p="creatorBall.cs" t="Include" />
             <e p="creatorButterFly.cs" t="Include" />
@@ -208,7 +209,6 @@
             <e p="MainScript.cs" t="Include" />
             <e p="Mission.cs" t="Include" />
             <e p="MissionManager.cs" t="Include" />
-            <e p="MoveUp.cs" t="Include" />
             <e p="Pot.cs" t="Include" />
             <e p="RabbitAnim.cs" t="Include" />
             <e p="RemainLine.cs" t="Include" />

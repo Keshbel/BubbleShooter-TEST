@@ -75,8 +75,10 @@ public class LevelData
             {
                 //Replace GM to get mode number, 
                 string modeString = line.Replace("GM=", string.Empty).Trim();
+                
                 //then parse it to interger
                 int modeNum = int.Parse(modeString);
+                
                 //Assign game mode
                 mode = (ModeGame)modeNum;
             }
@@ -84,6 +86,7 @@ public class LevelData
             {
                 //Replace LTM to get limit number, 
                 string amountString = line.Replace("LMT=", string.Empty).Trim();
+                
                 //then parse it to interger and assign to limitAmount
                 limitAmount = int.Parse(amountString);
             }
@@ -92,8 +95,10 @@ public class LevelData
             {
                 //Replace 'MNS' to get mission numbers
                 string missionString = line.Replace("MNS", string.Empty).Trim();
+                
                 //Split again to get mission numbers
                 string[] missionNumbers = missionString.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
+                
                 for (int i = 0; i < missionNumbers.Length; i++)
                 {
                     //Set scores of mission and mission type
@@ -111,6 +116,7 @@ public class LevelData
             {
                 //Split lines again to get map numbers
                 string[] squareTypes = line.Replace("\r", string.Empty).Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+                
                 for (int i = 0; i < squareTypes.Length; i++)
                 {
                     int value = int.Parse(squareTypes[i].Trim());

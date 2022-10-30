@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using InitScriptName;
-
 
 public enum GameState
 {
@@ -44,13 +42,11 @@ public class GamePlay : MonoBehaviour
                 {
                     value = GameState.Playing;
                     gameStatus = value;
-                    //  ShowTutorial();
                 }
                 else if (value == GameState.PreTutorial && gameStatus != GameState.Playing)
                 {
                     ShowPreTutorial();
                 }
-
             }
             if (value == GameState.WaitAfterClose)
                 StartCoroutine(WaitAfterClose());
@@ -59,11 +55,8 @@ public class GamePlay : MonoBehaviour
             {
                 if (gameStatus != GameState.Playing)
                     GamePlay.Instance.gameStatus = value;
-
             }
-
             GamePlay.Instance.gameStatus = value;
-
         }
     }
 
@@ -81,7 +74,6 @@ public class GamePlay : MonoBehaviour
             if (Input.GetKey(KeyCode.L)) { LevelData.LimitAmount = 0; GamePlay.Instance.GameStatus = GameState.GameOver; }
             if (Input.GetKey(KeyCode.D)) MainScript.Instance.destroyAllballs();
             if (Input.GetKey(KeyCode.M)) LevelData.LimitAmount = 1;
-
         }
     }
 
@@ -90,20 +82,12 @@ public class GamePlay : MonoBehaviour
     {
         winStarted = true;
         GameObject.Find("Canvas").transform.Find("LevelCleared").gameObject.SetActive(true);
-        //       yield return new WaitForSeconds( 1f );
-        //if( GameObject.Find( "Music" ) != null)
-        //    GameObject.Find( "Music" ).SetActive( false );
-        //    GameObject.Find( "CanvasPots" ).transform.Find( "Black" ).gameObject.SetActive( true );
         SoundBase.GetInstance().GetComponent<AudioSource>().PlayOneShot(SoundBase.GetInstance().winSound);
         yield return new WaitForSeconds(1f);
         if (LevelData.mode == ModeGame.Vertical)
         {
-            //  SoundBase.Instance.audio.PlayOneShot( SoundBase.Instance.swish[0] );
-            //  GameObject.Find( "Canvas" ).transform.Find( "PreComplete" ).gameObject.SetActive( true );
             yield return new WaitForSeconds(1f);
             GameObject.Find("CanvasPots").transform.Find("Black").gameObject.SetActive(false);
-            //     SoundBase.Instance.audio.PlayOneShot( SoundBase.Instance.swish[0] );
-            //  yield return new WaitForSeconds( 1.5f );
             yield return new WaitForSeconds(0.5f);
         }
 
@@ -112,7 +96,6 @@ public class GamePlay : MonoBehaviour
             item.GetComponent<ball>().StartFall();
 
         }
-        // StartCoroutine( PushRestBalls() );
         Transform b = GameObject.Find("-Ball").transform;
         ball[] balls = GameObject.Find("-Ball").GetComponentsInChildren<ball>();
         foreach (ball item in balls)
@@ -130,7 +113,6 @@ public class GamePlay : MonoBehaviour
                 ball.transform.parent = MainScript.Instance.Balls;
                 ball.tag = "Ball";
                 ball.PushBallAFterWin();
-
             }
             yield return new WaitForEndOfFrame();
         }
@@ -145,8 +127,8 @@ public class GamePlay : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         SoundBase.GetInstance().GetComponent<AudioSource>().PlayOneShot(SoundBase.GetInstance().aplauds);
-        if (PlayerPrefs.GetInt(string.Format("Level.{0:000}.StarsCount", MainScript.Instance.currentLevel), 0) < MainScript.Instance.stars)
-            PlayerPrefs.SetInt(string.Format("Level.{0:000}.StarsCount", MainScript.Instance.currentLevel), MainScript.Instance.stars);
+        if (PlayerPrefs.GetInt($"Level.{MainScript.Instance.currentLevel:000}.StarsCount", 0) < MainScript.Instance.stars)
+            PlayerPrefs.SetInt($"Level.{MainScript.Instance.currentLevel:000}.StarsCount", MainScript.Instance.stars);
 
 
         if (PlayerPrefs.GetInt("Score" + MainScript.Instance.currentLevel) < MainScript.Score)
@@ -158,37 +140,10 @@ public class GamePlay : MonoBehaviour
         GameObject.Find("Canvas").transform.Find("MenuComplete").gameObject.SetActive(true);
 
     }
-
-    //IEnumerator PushRestBalls()
-    //{
-
-    //    while( LevelData.limitAmount  > 0)
-    //    {
-    //        if( MainScript.Instance.boxCatapult.GetComponent<Grid>().Busy != null )
-    //        {
-    //            LevelData.limitAmount--;
-    //            ball b = MainScript.Instance.boxCatapult.GetComponent<Grid>().Busy.GetComponent<ball>();
-    //            MainScript.Instance.boxCatapult.GetComponent<Grid>().Busy = null;
-    //            b.transform.parent = MainScript.Instance.Balls;
-    //            b.tag = "Ball";
-    //            b.PushBallAFterWin();
-
-    //        }
-    //        yield return new WaitForEndOfFrame();
-    //    }
-
-    //}
-
-    void ShowTutorial()
-    {
-        //GameObject.Find( "Canvas" ).transform.Find( "Tutorial" ).gameObject.SetActive( true );
-
-
-    }
+    
     void ShowPreTutorial()
     {
         GameObject.Find("Canvas").transform.Find("PreTutorial").gameObject.SetActive(true);
-
     }
 
     IEnumerator LoseAction()
@@ -202,7 +157,6 @@ public class GamePlay : MonoBehaviour
             SoundBase.GetInstance().GetComponent<AudioSource>().PlayOneShot(SoundBase.GetInstance().gameOver);
             GameObject.Find("Canvas").transform.Find("MenuGameOver").gameObject.SetActive(true);
         }
-        // GameObject.Find( "Canvas" ).transform.Find( "MenuPreGameOver" ).gameObject.SetActive( true );
         yield return new WaitForSeconds(0.1f);
 
     }

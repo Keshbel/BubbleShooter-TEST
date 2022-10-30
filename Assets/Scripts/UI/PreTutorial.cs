@@ -10,7 +10,6 @@ public class PreTutorial : MonoBehaviour
     {
         GetComponent<Image>().sprite = pictures[(int)LevelData.mode];
         SoundBase.GetInstance().GetComponent<AudioSource>().PlayOneShot(SoundBase.GetInstance().swish[0]);
-
     }
 
     // Update is called once per frame

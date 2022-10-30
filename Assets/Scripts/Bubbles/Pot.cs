@@ -8,12 +8,6 @@ public class Pot : MonoBehaviour
     public Text label;
     public GameObject splashPrefab;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.name.Contains("ball"))
